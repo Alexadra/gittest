@@ -4,7 +4,9 @@ public class FirstClass {
     
     public static int first(){
 	int a = 1;
-	return a;
+	int b = 2;
+	int c = a+b;
+	return c;
     }
 
     public static void main(String[] args) {
